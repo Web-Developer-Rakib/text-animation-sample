@@ -51,7 +51,7 @@ function App() {
           </div>
         </h1>
       </div>
-      <p className="w-56 text-[10px] mt-12 ml-[-80px] text-slate-500">
+      <p className="w-56 text-[10px] mt-12 ml-[-95px] text-slate-500">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
         distinctio perferendis molestiae rem alias, numquam illum laboriosam
         iste,
