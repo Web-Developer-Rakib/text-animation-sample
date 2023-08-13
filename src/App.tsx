@@ -41,11 +41,13 @@ function App() {
             {wordReplaced ? (
               <div className="transitioned">Marketing</div>
             ) : (
-              "Outreach".split("").map((char, index) => (
-                <div key={index} className={`${wordReplaced ? "text-sm" : ""}`}>
-                  {transitioned ? getTransitionedLetter(char) : char}
-                </div>
-              ))
+              "Outreach"
+                .split("")
+                .map((char, index) => (
+                  <div key={index}>
+                    {transitioned ? getTransitionedLetter(char) : char}
+                  </div>
+                ))
             )}
             <div className="ml-3">Problems</div>
           </div>
